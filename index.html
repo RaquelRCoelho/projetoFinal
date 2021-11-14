@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Aluraconf</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/palestrantes.css">
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="meu-menu">
+            <ul>
+                <li class="itens-menu"><a href="#painel-sobre">Sobre</a></li>
+                <li class="itens-menu"><a href="#painel-palestrantes">Palestrantes</a></li>
+            </ul>
+        </nav>
+        <div class="destaque">
+            <section class=principal>
+                <h1 class="titulo">Aluraconf</h1>
+                <h2 class="subtitulo">30MAIO|RIO</h2>
+            </section>
+            <section class="subscrever">
+                <a href="#painel-formulario" class="botao"> Inscreva-se</a>
+            </section>
+        </div>
+    </header>
+
+    <section class="painel-sobre" id="painel-sobre">
+        <div class="container">
+            <h2 class="titulo-sobre">Muito conteúdo: do frontend ao backend</h2>
+            <h3 class="subtitulo-sobre">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
+            <div class="descricao">
+                <p>Com a AluraConf abordaremos o que há de novidade e conhecimentos essesnciais a um desenvolvedor mobile.</p>
+                <p>
+                    É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, 
+                    UX, além da parte backend com Rest, Microservices e BigData. O desenvolvedor atualizado vai estar aqui.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="painel painel-palestrantes" id="painel-palestrantes">
+
+        <div class="container">
+            <div class="sobre-palestrantes">
+                <h2 class="titulo">Paletrantes</h2>
+                <h3 class="subtitulo"> Aprenda com palestrantes que são referência no mercado</h3>
+            </div>
+    
+            <ul class="palestrantes">
+    
+                <li class="palestrante">
+                    <figure class="foto-palestrante">
+                        <img class="imagem-palestrante" src="img/palestrantes/imagem1.jpg" alt="Foto do palestrante">
+                        <figcaption class="nome-palestrante">Flávio Almeida</figcaption>
+                        <p class="biografia-palestrante">Desenvolvedor e instrutor de Caelum</p>
+                    </figure>
+                    <p class="sobre-palestra">To be or not to be MEAN</p>
+                </li>
+    
+                <li class="palestrante">
+                    <figure class="foto-palestrante">
+                        <img class="imagem-palestrante" src="img/palestrantes/imagem2.jpg" alt="Foto do palestrante">
+                        <figcaption class="nome-palestrante">Alberto Ferreira</figcaption>
+                        <p class="biografia-palestrante">Desenvolvedor e instrutor de Caelum</p>
+                    </figure>
+                    <p class="sobre-palestra">To be or not to be MEAN</p>
+                </li>
+    
+                <li class="palestrante">
+                    <figure class="foto-palestrante">
+                        <img class="imagem-palestrante" src="img/palestrantes/imagem3.jpg" alt="Foto do palestrante">
+                        <figcaption class="nome-palestrante">Simone Silva</figcaption>
+                        <p class="biografia-palestrante">Desenvolvedora e instrutora de Caelum</p>
+                    </figure>
+                    <p class="sobre-palestra">To be or not to be MEAN</p>
+                </li>
+    
+                <li class="palestrante">
+                    <figure class="foto-palestrante">
+                        <img class="imagem-palestrante" src="img/palestrantes/imagem4.jpg" alt="Foto do palestrante">
+                        <figcaption class="nome-palestrante">Helena</figcaption>
+                        <p class="biografia-palestrante">Desenvolvedora e instrutora de Caelum</p>
+                    </figure>
+                    <p class="sobre-palestra">To be or not to be MEAN</p>
+                </li>
+    
+                <li class="palestrante">
+                    <figure class="foto-palestrante">
+                        <img class="imagem-palestrante" src="img/palestrantes/imagem5.jpg" alt="Foto do palestrante">
+                        <figcaption class="nome-palestrante">Maria</figcaption>
+                        <p class="biografia-palestrante">Desenvolvedora e instrutora de Caelum</p>
+                    </figure>
+                    <p class="sobre-palestra">To be or not to be MEAN</p>
+                </li>
+    
+                <li class="palestrante">
+                    <figure class="foto-palestrante">
+                        <img class="imagem-palestrante" src="img/palestrantes/imagem6.jpg" alt="Foto do palestrante">
+                        <figcaption class="nome-palestrante">Beatriz</figcaption>
+                        <p class="biografia-palestrante">Desenvolvedora e instrutora de Caelum</p>
+                    </figure>
+                    <p class="sobre-palestra">To be or not to be MEAN</p>
+                </li>
+            </ul>
+        </div>
+    </section>    
+    
+    <section class="painel-formulario" id="painel-formulario">
+        <div class="container"></div>
+            <h2 class="titulo">Seus dados</h2>
+            <form>
+                <div class="campo">
+                    <label>Nome</label>
+                    <input class="input">
+                </div>
+                <div class="campo">
+                    <label>E-mail</label>
+                    <input class="input">
+                </div>
+                <div class="lugar-botao">
+                    <button class="botao">REALIZAR INSCRIÇÃO</button> 
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.painel-formulario {
+    margin-top: 32px;
+}
+
+.painel-formulario .titulo {
+    font-size: 32px;
+    color: #EF7247;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.campo {
+    margin-bottom: 16px;
+}
+
+.campo label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.lugar-botao {
+    text-align: center;
+}
